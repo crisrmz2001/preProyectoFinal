@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header .navBar{
+    background-color : blueviolet
+}
+body {
+  margin: 0px;
+  background-color: aliceblue;
+  font-family: "Anton", sans-serif;
+}
+h1:hover {
+  color: white;
+}
+button {
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+.button-payoneer {
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.button-payoneer:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.navBar {
+  background-color: rgb(110, 180, 245);
+  border: 1px solid black;
+  position: relative;
+}
+.navBar h1 {
+  margin: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+.product {
+  margin: 15px;
+  padding: 2px 16px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.product:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.product img {
+  width: 300px;
+}
+.product h3 {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.button-add {
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+.button-add:hover {
+  background-color: #4caf50;
+  color: white;
+}
+footer {
+  background-color: blueviolet;
+  height: 200px;
+  width: 100%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 100px;
+}
+footer a:hover {
+  color: white;
+}
+footer p {
+  color: white;
+  font-size: 30px;
+  background-color: black;
+  padding: 15px;
+  margin-top: 20px;
+}
+.subir {
+  height: 35px;
+  width: 35px;
+  font-size: 30px;
+  line-height: 32px;
+  background-color: cyan;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+}
